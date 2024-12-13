@@ -1,4 +1,5 @@
-import Counter from "./components/Counter"
+import CounterIncrementWS from "./components/CounterIncrementWS"
+import CounterQM from "./components/CounterQM"
 import Header from "./components/Header"
 
 const App = () => {
@@ -6,7 +7,9 @@ const App = () => {
     <>
     <Header />
     <div className="container m-5">
-      <Counter />
+      <CounterQM />
+      <hr />
+      <CounterIncrementWS />
     </div>
     </>
   )
